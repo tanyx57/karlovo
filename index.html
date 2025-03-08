@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Under Construction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4caf50;  /* Mint green */
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #f0f0f0;
+            border-radius: 3px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .progress {
+            height: 100%;
+            width: 0%;  /* Start with 0% width */
+            background-color: #4caf50;  /* Mint green */
+            border-radius: 3px;
+            animation: loading 3s infinite;  /* Loading animation */
+        }
+        @keyframes loading {
+            0% {
+                width: 0%;
+            }
+            50% {
+                width: 60%;  /* You can adjust this to simulate progress */
+            }
+            100% {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>We're Working On It!</h1>
+        <p>Our website is under construction. We're making something amazing for you. Please check back soon!</p>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+</body>
+</html>
