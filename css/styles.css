@@ -7,6 +7,29 @@
   box-sizing: border-box;
 }
 
+a:focus,
+button:focus {
+  outline: 3px solid #ffd700;
+}
+
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: 0;
+  width: auto;
+  height: auto;
+  color: #303030;
+  z-index: 1000;
+  padding: 5px;
+}
+
 div {
   margin: 0;
 }
@@ -128,7 +151,7 @@ body {
 }
 
 #menu a:hover {
-  color: #b0bec5;
+  color: #303030;
 }
 
 #topTitle {
