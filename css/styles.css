@@ -40,6 +40,13 @@ body {
   background-size: 1200px auto;
 }
 
+#events {
+  background-image: url('../img/events-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center -60px;
+  background-size: 1200px auto;
+}
+
 .pageContainer {
   background-color: white;
   width: 100%;
@@ -353,6 +360,33 @@ h2.roza {
 
 #menu-mob.open:before {
   content: '\2613';
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #000;
+}
+
+.event-date {
+  font-size: 1.2em;
+  color: #f3a032;
+  font-weight: bold;
+}
+
+.event-title {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 678px) {
