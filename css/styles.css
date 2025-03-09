@@ -33,6 +33,13 @@ body {
   background-size: 1200px auto;
 }
 
+#nature {
+  background-image: url('../img/nature-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center -60px;
+  background-size: 1200px auto;
+}
+
 .pageContainer {
   background-color: white;
   width: 100%;
@@ -106,6 +113,15 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   margin: 3px 10px;
+  transition: color 0.1s ease;
+}
+
+#menu a.active {
+  text-decoration: underline;
+}
+
+#menu a:hover {
+  color: #b0bec5;
 }
 
 #topTitle {
