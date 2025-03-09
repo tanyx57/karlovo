@@ -1,93 +1,186 @@
 <!DOCTYPE html>
-<html lang="bg" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="bg">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>
+      Забележителности в Карлово – музеи, паметници и исторически места
+    </title>
+
+    <!-- Meta description for better SEO -->
+    <meta
+      name="description"
+      content="Разгледайте забележителностите на Карлово – музеи, исторически места, паметници и възрожденска архитектура, свързани с Васил Левски и българската история."
+    />
+
+    <!-- Meta keywords help with search engine ranking -->
+    <meta
+      name="keywords"
+      content="Карлово, забележителности, музеи, паметници, история, Васил Левски, Възраждане, България, туризъм"
+    />
+
+    <!-- Stylesheets for page styling -->
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon for browser tab icon -->
+    <link rel="icon" href="favicon.ico" sizes="any" />
   </head>
+
   <body>
-    <div
-      id="menu-mob"
-      onclick="this.classList.toggle('open'); document.getElementById('menu').classList.toggle('open')"
-    ></div>
+    <!-- Mobile menu placeholder -->
+    <div id="menu-mob"></div>
+
+    <!-- Main container for the page -->
     <div id="pois" class="pageContainer">
+      <!-- Header section containing the logo and navigation -->
       <div id="headerContainer">
-        <div id="header" class="baseBlock">
-          <div id="logo"><a href="index.html">Карлово</a></div>
-          <div id="menu">
+        <header id="header" class="baseBlock">
+          <div id="logo">
+            <a href="index.html">Карлово</a>
+          </div>
+          <nav id="menu">
             <a href="pois.html">Забележителности</a>
             <a href="nature.html">Природа</a>
             <a href="events.html">Празници</a>
-          </div>
-        </div>
+          </nav>
+        </header>
       </div>
+
+      <!-- Main page title -->
       <div id="topTitle" class="baseBlock">
         <h1>Забележителности</h1>
       </div>
 
-      <div id="page" class="baseBlock">
-        <div id="1" class="poiBlock">
-          <p>Национален музей „Васил Левски”</p>
-          <img
-            src="img/levski-museum.jpg"
-            alt="Къщата е едноетажна възрожденска сграда с долепена ниска пристройка"
-            title="Родната къща на Васил Левски"
-          />
-          <div>
-            <p>
-              Родната къща на Апостола, построена в края на ХVІІІ век, е
-              възстановена през 1933 г. и е отворена за посещение като музей
-              през 1937 г.
-            </p>
-            <p>
-              Комплексът включва още експозиционна зала, Чардаклиевата къща,
-              Онбашиевата къща и параклиса „Всех святих болгарских”, където се
-              съхранява част от косите на Апостола.
-            </p>
-            <p>Музеят е включен в „100-те национални туристически обекта”.</p>
-            виж на картата
-          </div>
-        </div>
+      <!-- Main content section -->
+      <main>
+        <div id="page" class="baseBlock">
+          <article id="levski-museum" class="poiBlock clearfix">
+            <h2>Национален музей „Васил Левски”</h2>
+            <img
+              src="img/levski-museum.jpg"
+              alt="Къщата е едноетажна възрожденска сграда с долепена ниска пристройка"
+              title="Родната къща на Васил Левски"
+            />
+            <div class="poiText">
+              <p>
+                Родната къща на Апостола, построена в края на ХVІІІ век, е
+                възстановена през 1933 г. и е отворена за посещение като музей
+                през 1937 г.
+              </p>
+              <p>
+                Комплексът включва още експозиционна зала, Чардаклиевата къща,
+                Онбашиевата къща и параклиса „Всех святих болгарских”, където се
+                съхранява част от косите на Апостола.
+              </p>
+              <p>Музеят е включен в „100-те национални туристически обекта”.</p>
+              <a
+                title="Точно местоположение"
+                href="https://goo.gl/maps/Ya5XFeQ2Wo612Q2h9"
+                class="g-maps"
+                >Виж на картата</a
+              >
+            </div>
+          </article>
 
-        <div id="2" class="poiBlock">
-          <p>Исторически музей – Карлово</p>
-          <img src="" />
-          <div>
-            <p></p>
-          </div>
-        </div>
+          <article id="history-museum" class="poiBlock clearfix">
+            <h2>Исторически музей – Карлово, част от 100-те НТО</h2>
+            <img
+              src="img/history_museum.jpg"
+              alt="Фасадата на Историческия музей в Карлово, разположен в сграда от Възраждането"
+              title="Исторически музей – Карлово"
+            />
+            <div class="poiText">
+              <p>
+                Намира се в Стария град, в една от най-представителните сгради
+                от епохата на Възраждането – някогашното петокласно мъжко
+                училище, построено през 1871 г.
+              </p>
+              <p>
+                Музеят представя историята на града от основаването му през ХV
+                век до наши дни. Комплексът включва и открити експозиции –
+                възстановка на розоварна от началото на XIX век, терзийска
+                работилница, гайтанджийска одая, тепавица и др.
+              </p>
+            </div>
+          </article>
 
-        <div id="3" class="poiBlock">
-          <p>Бухаловият хан</p>
-          <img src="" />
-          <div class="poiText">
-            <p></p>
-          </div>
-        </div>
+          <article id="buhalov-han" class="poiBlock clearfix">
+            <h2>Бухаловият хан</h2>
+            <img
+              src="img/buha.jpg"
+              alt="Бухаловият хан в Карлово"
+              title="Бухаловият хан"
+            />
+            <div class="poiText">
+              <p>
+                Бухаловият хан е една от емблематичните възрожденски къщи в
+                туристическия комплекс „Старинно Карлово”. В нея навремето се
+                събирал революционният комитет, основан от Васил Левски. Днес тя
+                е реставрирана и превърната в Център за занаяти и културни
+                традиции.
+              </p>
+              <p>
+                Тук посетителите могат да се докоснат до майсторството на
+                местните дърворезбари, ножари, гравьори, медникари, бъчвари,
+                иконописци, да опознаят великолепието на калоферската дантела,
+                на тъкачеството, плетачеството, изработката на кукерски маски,
+                да се насладят на ароматно кафе, приготвено на пясък, да опитат
+                сладко и локум от рози и десерти, приготвени по стари карловски
+                рецепти.
+              </p>
+            </div>
+          </article>
 
-        <div id="4" class="poiBlock">
-          <p>Паметник на Васил Левски.</p>
-          <img src="" />
-          <div class="poiText">
-            <p></p>
-          </div>
-        </div>
+          <article id="levski-monument" class="poiBlock clearfix">
+            <h2>Паметник на Васил Левски</h2>
+            <img
+              src="img/vasil-levski.jpg"
+              alt="Паметник на Васил Левски в Карлово"
+              title="Паметник на Васил Левски"
+            />
+            <div class="poiText">
+              <p>
+                Основният му камък е положен на 15 май 1903 г. в присъствието на
+                княз Фердинанд. На пиедестала на паметника са изписани имената
+                на загиналите през страшните юлски и августовски дни на 1877 г.
+                карловци, възприели веруюто на Левски: „Нам свобода и човешки
+                правдини трябват!”.
+              </p>
+            </div>
+          </article>
 
-        <div id="5" class="poiBlock">
-          <p>Църква „Свети Николай”</p>
-          <img src="" class="right-img" />
-          <div class="poiText">
-            <p></p>
-          </div>
+          <article id="st-nikolai-church" class="poiBlock clearfix">
+            <h2>Църква „Свети Николай”</h2>
+            <img
+              src="img/sankta-nikolao.jpg"
+              alt="Църква Свети Николай в Карлово"
+              title="Църква „Свети Николай”"
+            />
+            <div class="poiText">
+              <p>
+                Паметник на възрожденската архитектура (1847 г.). Сред
+                иконописците й са Станислав Доспевски и Иван Зографски. Тук през
+                1858 г. за първи път е отпразнуван денят на българската
+                писменост.
+              </p>
+              <p>
+                В двора на църквата се намира гробът на Гина Кунчева – майката
+                на Васил Левски.
+              </p>
+            </div>
+          </article>
         </div>
+      </main>
 
-        <br class="clear" />
-      </div>
-      <div id="footer" class="baseBlock">
-        <p>Copyright © 2021 Domino EOOD. All Rights Reserved.</p>
-      </div>
+      <!-- Footer section -->
+      <footer id="footer">
+        <p class="baseBlock">Copyright © 2025 Tanyx57. All Rights Reserved.</p>
+      </footer>
     </div>
+
+    <!-- Loads after HTML for better performance and faster rendering -->
+    <script src="js/app.js"></script>
   </body>
 </html>

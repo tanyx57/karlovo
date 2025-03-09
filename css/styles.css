@@ -54,7 +54,7 @@ body {
     rgba(243, 160, 50, 0.5) 100%
   );
   width: 100%;
-  height: 60px;
+  height: 68px;
 }
 
 #header {
@@ -190,14 +190,17 @@ h2.roza {
   margin-top: 35px;
 }
 
-.poiBlock h2 {
-}
-
 #page {
   padding: 25px 0;
 }
 
 .clear {
+  clear: both;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
   clear: both;
 }
 
@@ -256,15 +259,30 @@ h2.roza {
   background-color: #fafaf0;
   margin: 0 0 20px;
   border: #ccc solid 1px;
+  padding: 20px;
+}
+
+.poiBlock h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.poiBlock .g-maps {
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .poiBlock img {
   float: right;
   display: block;
+  max-width: 300px;
 }
 
 .poiBlock .poiText {
-  padding: 20px;
+  padding: 0 40px 0 20px;
   width: calc(100% - 300px);
   display: inline-block;
 }
@@ -373,7 +391,10 @@ h2.roza {
     float: none;
     margin: 0 auto;
   }
+
   .poiBlock .poiText {
+    margin-top: 20px;
+    padding-right: 20px;
     width: 100%;
   }
 }
