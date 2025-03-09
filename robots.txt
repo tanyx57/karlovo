@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanyx57.github.io/karlovo/sitemap.xml
