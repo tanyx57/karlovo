@@ -6,4 +6,8 @@
     menuButton.classList.toggle('open')
     menuList.classList.toggle('open')
   })
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.lazy-bg').classList.add('loaded')
+  })
 })()

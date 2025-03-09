@@ -43,31 +43,43 @@ body {
 }
 
 #home {
-  background-image: url('../img/home-page-image.jpg');
   background-repeat: no-repeat;
   background-position: center -60px;
   background-size: 1200px auto;
+}
+
+#home.loaded {
+  background-image: url('../img/home-page-image.webp');
 }
 
 #pois {
-  background-image: url('../img/pois-image.jpg');
   background-repeat: no-repeat;
   background-position: center -60px;
   background-size: 1200px auto;
+}
+
+#pois.loaded {
+  background-image: url('../img/pois-image.webp');
 }
 
 #nature {
-  background-image: url('../img/nature-image.jpg');
   background-repeat: no-repeat;
   background-position: center -60px;
   background-size: 1200px auto;
 }
 
+#nature.loaded {
+  background-image: url('../img/nature-image.webp');
+}
+
 #events {
-  background-image: url('../img/events-image.jpg');
   background-repeat: no-repeat;
   background-position: center -60px;
   background-size: 1200px auto;
+}
+
+#events.loaded {
+  background-image: url('../img/events-image.webp');
 }
 
 .pageContainer {
