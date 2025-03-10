@@ -8,7 +8,7 @@
 
 a:focus,
 button:focus {
-  outline: 3px solid #ffd700;
+  outline: 3px solid #ffc164;
 }
 
 .skip-link {
@@ -163,7 +163,7 @@ body {
 }
 
 #menu a:hover {
-  color: #303030;
+  color: #ffd099;
 }
 
 #topTitle {
